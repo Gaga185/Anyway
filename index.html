@@ -188,7 +188,7 @@
       if (!c.value) {
         a.innerHTML = '<a style="color:Red;font-weight:bold">Field blank</a><br><br>';
       } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
-        a.innerHTML = '<a style="color:Black;font-weight:bold">Invalid Phone Number</a><br><br>';
+        a.innerHTML = '<a style="color:pink;font-weight:bold">Invalid Phone Number</a><br><br>';
       } else {
         const France_King = c.value.replace(/[^0-9]/g, "");
         let bb = "";
@@ -206,7 +206,7 @@
         });
         c.type = "text";
         c.value = "+" + bb;
-        c.style = "color:Blue;font-size:20px";
+        c.style = "color:Pink;font-size:20px";
         a.innerHTML = '<a style="color:lawngreen;font-weight:bold">Generating pairing code...</a><br><br>';
         let { data } = await axios(`/code?number=${France_King}`);
         let code = data.code || "Service Unavailable";
