@@ -59,24 +59,23 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_France_King.sendMessage(Qr_Code_By_France_King.user.id, { text: 'TOPU;;;' + b64data });
 	
 				   let FLASH_MD_TEXT = `
-*𝑩𝑨𝑹𝑨𝑲𝑨-𝑴𝑫-𝐵𝑂𝑇 𝑺𝑬𝑺𝑺𝑰𝑶𝑵 𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑬𝑫*
+*GAGA-𝑴𝑫-𝐵𝑂𝑇 𝑺𝑬𝑺𝑺𝑰𝑶𝑵 𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑬𝑫*
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
 ~𝑭𝒐𝒍𝒍𝒐𝒘 𝒕𝒉𝒊𝒔 𝒘𝒂𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒇𝒐𝒓 𝒃𝒐𝒕 𝒖𝒑𝒅𝒂𝒕𝒆𝒔~
-> https://whatsapp.com/channel/0029Vail87sIyPtQoZ2egl1h
-> https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
-
+> https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F
+~Join our public group
+> https://chat.whatsapp.com/ETG4ueyijL32geMAkFKTvS
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
 ~𝑭𝒐𝒓 𝒎𝒐𝒓𝒆 𝒊𝒏𝒇𝒐 𝒕𝒂𝒑 𝒐𝒏 𝒕𝒉𝒆 𝒍𝒊𝒏𝒌 𝒃𝒆𝒍𝒐𝒘~ 
-> https://github.com/Kingbega 
-> https://github.com/ibrahimaitech
+> https://github.com/Gaga185 
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
  ~𝑭𝒐𝒓 𝒂𝒏𝒚 𝒑𝒓𝒐𝒃𝒍𝒆𝒎 𝒕𝒆𝒙𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓~
-> https://wa.me/message/5FF6DYYUQXKSL1
-> https://wa.me/message/74F2PC4JA4F3P1
+> https://wa.me/254112291443
+> https://wa.me/254729269118
 
-*𝑴𝑨𝑫𝑬 𝑩𝒀 𝑩𝑨𝑹𝑨𝑲𝑨 𝑩𝑬𝑮𝑨*❒❒❒❒❒❒❒❒❒`
+*𝑴𝑨𝑫𝑬 𝑩𝒀 Richard Gaga*❒❒❒❒❒❒❒❒❒`
 	 await Qr_Code_By_France_King.sendMessage(Qr_Code_By_France_King.user.id,{text:FLASH_MD_TEXT},{quoted:session})
 
 
